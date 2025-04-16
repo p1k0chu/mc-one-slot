@@ -4,8 +4,13 @@
   "package": "com.github.p1k0chu.mcOneSlot.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "MinecraftClientMixin",
+    "PlayerEntityMixin",
+    "PlayerInventoryMixin",
+    "PlayerScreenHandlerMixin"
   ],
   "client": [
+    "InGameHudMixin"
   ],
   "injectors": {
     "defaultRequire": 1
