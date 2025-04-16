@@ -10,7 +10,8 @@
     "PlayerScreenHandlerMixin"
   ],
   "client": [
-    "InGameHudMixin"
+    "InGameHudMixin",
+    "InventoryScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
