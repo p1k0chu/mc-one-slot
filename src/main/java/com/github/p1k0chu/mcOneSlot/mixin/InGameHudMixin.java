@@ -11,4 +11,9 @@ public class InGameHudMixin {
     private int modifyHotbarLength(int value) {
         return 1;
     }
+
+    @ModifyConstant(method = "renderHotbar", constant = @Constant(intValue = 182))
+    private int modifyHotbarRenderWidth(int value) {
+        return 22;
+    }
 }
