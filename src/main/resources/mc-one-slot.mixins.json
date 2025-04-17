@@ -4,6 +4,7 @@
   "package": "com.github.p1k0chu.mcOneSlot.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "HandledScreenMixin",
     "MinecraftClientMixin",
     "PlayerEntityMixin",
     "PlayerInventoryMixin",
