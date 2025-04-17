@@ -22,7 +22,7 @@ public class InventoryScreenMixin {
         final int color = 0xffc7c7c7;
         context.fill(i + x1, j + y1, i + x2, j + y2, color);
 
-        final int x3 = 26;
+        final int x3 = 25;
         final int y3 = 141;
         final int y4 = 159;
 
