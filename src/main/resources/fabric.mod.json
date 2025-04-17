@@ -15,7 +15,11 @@
     ]
   },
   "mixins": [
-    "mc-one-slot.mixins.json"
+    "mc-one-slot.mixins.json",
+    {
+      "config": "mc-one-slot.client.mixins.json",
+      "environment": "client"
+    }
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",

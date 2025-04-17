@@ -1,4 +1,4 @@
-package com.github.p1k0chu.mcOneSlot.mixin;
+package com.github.p1k0chu.mcOneSlot.mixin.client;
 
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;
